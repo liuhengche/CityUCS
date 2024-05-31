@@ -1,0 +1,14 @@
+#info > h1 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    animation-name: forbonus;
+    animation-duration: 4s;
+}
+
+@keyframes forbonus {
+    from {background-color: lightgreen;}
+  to {background-color: red;}
+}

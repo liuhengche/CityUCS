@@ -1,0 +1,145 @@
+#resultBlock .header-row {
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+
+#resultBlock tr:not(.header-row):nth-child(odd) {
+   background-color:lightgrey;
+}
+
+#resultBlock tr:not(.header-row):nth-child(even) {
+   background-color:lightyellow;
+}
+
+#myTable {
+    width: 100%;
+}
+
+#myTable tbody tr:hover {
+    background-color: lightsalmon !important;
+}
+
+#submit,
+#clear {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 700;
+}
+
+#welBar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headingsection {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.headingsection h4 {
+    line-height: 0;
+}
+
+h5{
+    display: inline-block;
+    width: 30%; 
+    box-sizing: border-box; 
+    margin: 0;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+}
+
+.college {
+    display: none;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h5:hover {
+    background-color: white;
+}
+
+.college form {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    padding: 5px;
+}
+
+.college img {
+    display: block;
+}
+
+/* .headingsection:hover ~ #bonus .college {
+    display: block;
+} */
+
+/* .college:hover {
+    display: block;
+} */
+
+.college form:hover{
+    background-color: lightgrey;
+}
+
+/* #Eng:hover ~ .cOfEng {
+    display: block;
+}
+
+#Eng:hover ~ .notEng {
+    display: none;
+}
+
+#Sci:hover ~ .cOfSci {
+    display: block;
+}
+
+#Sci:hover ~ .notSci {
+    display: none;
+}
+
+#Inter:hover ~ .cOfInter {
+    display: block;
+}
+
+#Inter:hover ~ .notInter {
+    display: none;
+}
+
+#bonus:has(>.cOfSci:hover) #Sci {
+    background-color: white;
+}
+
+#bonus:has(>.cOfEng:hover) #Eng {
+    background-color: white;
+}
+
+#bonus:has(>.cOfInter:hover) #Inter {
+    background-color: white;
+} */
+
+#submit, 
+#clear {
+    background-color: white;
+    transition: background-color 1s ease;
+}
+
+#submit:hover,
+#clear:hover {
+    background-color: lightgreen;
+}
+
+#display {
+    color: red;
+    text-align: center;
+}

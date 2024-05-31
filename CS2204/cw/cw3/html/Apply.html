@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/theme.css" type="text/css">
+    <link rel="stylesheet" href="../css/apply.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/printApply.css" type="text/css" media="print">
+    <title>Apply</title>
+  
+</head>
+<body>
+
+    <div id="headerBlock">
+        <header>
+            <img id="logo" src="../img/logo.png" alt="logo" width="400" height="100">
+            <h1>Hong Kong Industrial University</h1>
+        </header>
+        <div id="navBar">
+            <nav>
+                <ul>
+                    <li><a href="./HomePage.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Apply.html">Apply</a></li>
+                    <li><a href="./Visit.html">Visit</a></li>
+                    <li><a href="./Program.html">Program</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="welBar">
+        <h2>Welcome to HKIU</h2>
+    </div>
+
+
+    <div class="headingsection">
+        <h4>Common Application to Undergraduate Program</h4>
+    </div>
+
+    <div id="bonus">
+        <h5 id="Eng">College of Engineering</h5>
+        <h5 id="Sci">College of Science</h5>
+        <h5 id="Inter">College of Interdisciplinary Studies</h5>
+        <div class="cOfEng college notSci notInter" id="engineering">
+            <form action="#" method="get">
+                <img src="../img/cs.png" alt="cs" width="200" height="200">
+                <label for="ccs">BSc in Computer Science and Technology</label>
+                <input type="number" name="cs" id="ccs" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/ei.png" alt="ei" width="200" height="200">
+                <label for="eei">BEng in Electronic Information</label>
+                <input type="number" name="ei" id="eei" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/mse.png" alt="mse" width="200" height="200">
+                <label for="mmse">BEng in Materials Science and Engineering</label>
+                <input type="number" name="mse" id="mmse" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/mc.png" alt="mc" width="200" height="200">
+                <label for="mmc">BEng in Materials and Chemicals</label>
+                <input type="number" name="mc" id="mmc" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/est.png" alt="est" width="200" height="200">
+                <label for="eest">BSc in Electronic Science and Technology</label>
+                <input type="number" name="est" id="eest" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+        </div>
+    
+        <div class="cOfSci college notEng notInter" id="science">
+            <form action="#" method="get">
+                <img src="../img/phy.png" alt="phy" width="200" height="200">
+                <label for="pphy">BSc in Physics</label>
+                <input type="number" name="phy" id="pphy" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/chem.png" alt="chem" width="200" height="200">
+                <label for="cchem">BSc in Chemistry</label>
+                <input type="number" name="chem" id="cchem" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/bio.png" alt="bio" width="200" height="200">
+                <label for="bbio">BSc in Biology</label>
+                <input type="number" name="bio" id="bbio" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+        </div>
+    
+        <div class="cOfInter college notEng notSci" id="interdis">
+            <form action="#" method="get">
+                <img src="../img/cogs.png" alt="cogs" width="200" height="200">
+                <label for="ccogs">BSc in Cognitive Science</label>
+                <input type="number" name="cogs" id="ccogs" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/be.png" alt="be" width="200" height="200">
+                <label for="bbe">BEng in Biomedical Engineering</label>
+                <input type="number" name="be" id="bbe" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../img/bm.png" alt="bm" width="200" height="200">
+                <label for="bbm">BSc in Biology and Medicine</label>
+                <input type="number" name="bm" id="bbm" class="rank">
+                <button type="button" class="roc">rank of choice</button>
+            </form> 
+        </div>
+    </div>
+
+
+
+    
+    <div id="resultBlock">
+        <h2>Your chosen majors:</h2>
+        <h4 id="time">Last change time:</h4>
+        <table id="myTable">
+            <thead>
+                <tr class="header-row">
+                    <th>College</th>
+                    <th>Major</th>
+                    <th>Rank</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h4 id="total">Total Number of Majors Applied:</h4>
+        <p><a href="#" id="submit">submit</a> 
+            <a href="#" id="clear" onclick="clearTable()">clear</a>
+        </p>
+    </div>
+
+    <div id="display"></div>
+
+    <div id="footer">
+        <img src="../img/footer_logo.png" alt="footer_logo" width="300" height="100">
+        <p>© CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="./Design.html">刘恒澈</a></p>
+    </div>
+
+
+    <script src="../js/Apply.js">
+    </script>
+   
+</body>
+</html>

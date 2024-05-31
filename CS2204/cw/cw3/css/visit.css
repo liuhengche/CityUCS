@@ -1,0 +1,76 @@
+#welcomeBlock {
+    text-align: center;
+}
+
+#img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+#img img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+#address {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+#reservBlock {
+    clear: left;
+}
+
+#reservBlock h2 {
+    text-align: center;
+}
+
+#reservBlock form {
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+
+#reservBlock legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#ddate, 
+#vvisitors,
+#ttime {
+    position: absolute;
+    left: 31%;
+}
+
+#reservBlock label {
+    display: inline-block;
+    text-align: right;
+    width: 28%; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+#cheAva {
+    margin-left: 28%;
+}
+
+#reset {
+    margin-left: 10px;
+}
+
+
+#footer {
+    float: left;
+    position: relative;
+}
+
+#errorMess {
+    color: red;
+    text-align: center;
+
+}

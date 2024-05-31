@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(to left, lightyellow, white);
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+#headerBlock h1{
+  color: white; 
+}
+  
+#headerBlock {
+  background-color: grey;
+  text-align: center;
+  height: 220px;
+}
+
+#navBar {
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+}
+
+#navBar ul > li {
+  display: inline;
+}
+
+#navBar ul > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#navBar ul > li > a:link {
+  color: white;
+}
+
+#navBar ul > li > a:visited {
+  color:lightblue;
+}
+
+#navBar ul > li > a:hover {
+  color:red;
+}
+
+#navBar ul > li > a:active {
+  color:yellow;
+}
+
+#footer {
+  background-color: lightgrey;
+  width: 100%;
+}
+
+#footer > p {
+  color: white;
+  text-align: center;
+}
+
+#footer img {
+  display: block;
+  margin: auto;
+}

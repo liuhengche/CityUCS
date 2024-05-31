@@ -1,0 +1,95 @@
+#headerBlock {
+    background-color: grey;
+    text-align: center;
+    height: auto;
+  }
+
+#aboutImg {
+    width: 100%;
+}
+
+#tableBlock {
+    margin: 0 auto;
+    max-width: 80%;
+    display: table;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#mainCon {
+    margin: 0 auto;
+    max-width: 80%;
+    position: relative;
+    align-items: center;
+}
+
+#infoBlock {
+    border: 1px solid black;
+    float:left;
+    width: 50%;
+    text-align: center;
+}
+
+#forBonus {
+    border: 1px solid black;
+    float: right;
+    width: 49%;
+    text-align: center;
+}
+
+
+
+#tableBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#tableBlock table {
+    width: 100%;
+}
+
+#myTable, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#myTable tbody tr:hover {
+    background-color: lightblue !important;
+}
+
+#tableBlock .header-row {
+     background-color: lightgrey;
+}
+
+#tableBlock tr:not(.header-row):nth-child(odd) {
+    background-color:lightyellow;
+}
+
+#tableBlock tr:not(.header-row):nth-child(even) {
+    background-color:lightgreen;
+}
+
+caption,
+th,
+td {
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.caption-text {
+    background-color: lightgray;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+

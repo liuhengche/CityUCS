@@ -1,0 +1,45 @@
+#headerBlock {
+    background-color: white;
+}
+
+#headerBlock h1 {
+    color: lightgray;
+}
+
+#welBar,
+.select {
+    display: none;
+}
+#footer {
+    background-color: white;
+}
+
+#navBar {
+    display: none;
+}
+
+#submit,
+#clear {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 700;
+}
+
+#myTable,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#myTable th {
+    text-align: left;
+    color: lightgray
+}
+
+.headingsection,
+#bonus {
+    display: none;
+}

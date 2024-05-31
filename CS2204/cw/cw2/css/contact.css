@@ -1,0 +1,29 @@
+#contactBlock h1 {
+    text-align: center;
+}
+
+#contactBlock {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#contactBlock table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#contactBlock td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#contactBlock thead tr {
+    background-color: green;
+    color: white;
+    text-align: left;
+}

@@ -1,0 +1,43 @@
+/* remember to alter the background colors */
+
+#welcomeBlock {
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+#welcomeBlock #first {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#welcomeBlock #second {
+    text-align: center;
+}
+
+#welcomeBlock #third {
+    text-align: center;
+}
+
+#infoBlock {
+    float: left;
+    width: 50%;
+}
+
+#mAndABlock {
+    float: right;
+    width: 50%;
+}
+
+#footer {
+    float: left;
+}
+
+#location {
+    max-width: 60%;
+    height: auto;
+}
+
+#button {
+    max-width: 20%;
+    height: auto;
+}

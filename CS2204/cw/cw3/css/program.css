@@ -1,0 +1,74 @@
+#promInfoblock h1 {
+    text-align: center;
+}
+/* 
+#firProm {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+} */
+
+#firVid {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+/* #secProm {
+    clear: both;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    float: left;
+} */
+
+#secVid {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+#promptCon {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#videoCon {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+}
+
+#infoTableBlock {
+    clear:both;
+    width: 100%;
+    text-align: center;
+}
+
+#infoTableBlock table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#infoTableBlock table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#infoTableBlock thead tr {
+    background-color: black;
+    color: white;
+}
