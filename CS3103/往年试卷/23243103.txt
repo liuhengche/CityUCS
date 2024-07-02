@@ -1,0 +1,29 @@
+main:				// entry point
+	mov $3, %ax		// ax initialized to 3
+top:					// label
+	mov 2000, %dx		// get the value from mem2000 to the register dx
+	add $1, %dx		// increment the value in the register %dx by 1
+	mov %dx, 2000		// store the value in the register to mem 2000
+	sub $1, %ax		// decrement the value in register %ax by 1
+	test $0, %ax		// compare the value in register %ax with 0
+	jgt top			// jump to "top" if the result of comparison is "greater"
+	halt 				// stop running this thread
+
+
+
+
+
+
+main:
+	mov $5, %ax		// %ax is initialized to 5
+top:
+	mov 2000, %dx		// get the value from mem2000  to register %dx
+	add $2, %dx		// increment the value in register %dx by 2
+	mov %dx, 2000		// store the value back to mem2000
+	sub $1, %ax 		// decrement the value in register by 1
+	test $4, %dx		// compare the value in register %dx with 4
+	jgt out			// jump to "out" if %dx is greater than 4
+	test $0, %ax 		// compare the value in register %ax with 0
+	jgt top			// jump to "top" if %ax is greater than 0
+out:
+	halt				// stop running the thread
